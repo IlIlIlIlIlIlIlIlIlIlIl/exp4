@@ -11,9 +11,6 @@ kernel: 计算引擎，执行cell的文本或者代码，本文基于Python 3 ip
 ### cell
 
 包含两种类型：
-代码cell：包含可被kernel执行的代码，执行之后在下方显示输出。
-Markdown cell：书写Markdown标记语言的cell。
-输入下列代码
 
 代码cell：包含可被kernel执行的代码，执行之后在下方显示输出。
 
@@ -511,7 +508,6 @@ plot(x, y1, ax, 'Increase in mean Fortune 500 company profits from 1955 to 2005'
 ![image](https://github.com/IlIlIlIlIlIlIlIlIlIlIl/exp4/blob/main/image/2.png?raw=true)
     
 
-
 看起来像指数增长，1990年代初期出现急剧的下滑
 绘制收入曲线
 
@@ -525,7 +521,6 @@ plot(x, y2, ax, 'Increase in mean Fortune 500 company revenues from 1955 to 2005
 
 ![image](https://github.com/IlIlIlIlIlIlIlIlIlIlIl/exp4/blob/main/image/3.png?raw=true)
     
-
 
 公司收入曲线并没有出现急剧下降
 对数据结果进行标准差处理
