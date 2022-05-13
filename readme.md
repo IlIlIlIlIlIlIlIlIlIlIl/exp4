@@ -435,9 +435,8 @@ bin_sizes, _, _ = plt.hist(df.year[non_numberic_profits], bins=range(1955, 2006)
 ```
 
 
-​    
-![image](https://github.com/IlIlIlIlIlIlIlIlIlIlIl/exp3/blob/main/TFLClassify/image/1.png?raw=true)
-​    
+![image](https://github.com/IlIlIlIlIlIlIlIlIlIlIl/exp4/blob/main/image/1.png?raw=true)
+    
 
 
 单独年份这样的记录数都少于4%，删除这些记录
@@ -509,9 +508,8 @@ plot(x, y1, ax, 'Increase in mean Fortune 500 company profits from 1955 to 2005'
 ```
 
 
-​    
-![png](output_61_0.png)
-​    
+![image](https://github.com/IlIlIlIlIlIlIlIlIlIlIl/exp4/blob/main/image/2.png?raw=true)
+    
 
 
 看起来像指数增长，1990年代初期出现急剧的下滑
@@ -525,9 +523,8 @@ plot(x, y2, ax, 'Increase in mean Fortune 500 company revenues from 1955 to 2005
 ```
 
 
-​    
-![png](output_63_0.png)
-​    
+![image](https://github.com/IlIlIlIlIlIlIlIlIlIlIl/exp4/blob/main/image/3.png?raw=true)
+    
 
 
 公司收入曲线并没有出现急剧下降
@@ -549,9 +546,8 @@ fig.tight_layout()
 ```
 
 
-​    
-![png](output_65_0.png)
-​    
+![image](https://github.com/IlIlIlIlIlIlIlIlIlIlIl/exp4/blob/main/image/4.png?raw=true)
+    
 
 
 不同公司之间的收入和利润差非常大
@@ -571,5 +567,7 @@ pip install jupyter_nbextensions_configurator
 jupyter nbextensions_configurator enable --user
 
 重新打开Jupyter Notebook启动页面
+
+![image](https://github.com/IlIlIlIlIlIlIlIlIlIlIl/exp4/blob/main/image/5.png?raw=true)
 
 Tab健可以补全或者选择代码
